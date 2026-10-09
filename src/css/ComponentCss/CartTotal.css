@@ -1,0 +1,44 @@
+.cart-total {
+    width: 100%;
+  }
+  
+  /* Title */
+  
+  .cart-total-title {
+    margin-bottom: 20px;
+  }
+  
+  /* Rows */
+  
+  .cart-total-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    margin: 12px 0;
+  
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .cart-total-row p {
+    margin: 0;
+  }
+  
+  .cart-total-row b {
+    font-size: 13px;
+    color: #222;
+  }
+  
+  /* Lines */
+  
+  .cart-total hr {
+    margin: 0;
+  
+    border: none;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .total-row {
+    margin-top: 15px;
+  }

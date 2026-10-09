@@ -1,0 +1,46 @@
+.product-item {
+    display: block;
+  
+    color: #111827;
+    text-decoration: none;
+  }
+  
+  /* Product Image */
+  
+  .product-image {
+    width: 100%;
+  
+    margin-bottom: 12px;
+  
+    overflow: hidden;
+  }
+  
+  .product-image img {
+    width: 100%;
+  
+    display: block;
+  
+    transition: 0.3s;
+  }
+  
+  .product-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Product Name */
+  
+  .product-name {
+    margin: 0 0 8px;
+  
+    font-size: 14px;
+    color: #111827;
+  }
+  
+  /* Product Price */
+  
+  .product-price {
+    margin: 0;
+  
+    font-size: 14px;
+    color: #64748b;
+  }

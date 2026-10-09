@@ -1,0 +1,24 @@
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .title p:first-child {
+    margin: 0;
+  
+    font-size: 24px;
+    color: #111827;
+  }
+  
+  .title span {
+    font-weight: 600;
+  }
+  
+  .title-line {
+    width: 40px;
+    height: 2px;
+  
+    margin: 8px auto 0;
+  
+    background: #111827;
+  }

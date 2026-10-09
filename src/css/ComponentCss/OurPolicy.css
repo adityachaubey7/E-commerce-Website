@@ -1,0 +1,42 @@
+.our-policy {
+  width: 90%;
+  max-width: 1250px;
+
+  margin: 70px auto 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.policy-box {
+  text-align: center;
+}
+
+.policy-box img {
+  width: 45px;
+  margin-bottom: 15px;
+}
+
+.policy-box p {
+  margin: 5px 0;
+
+  font-size: 13px;
+  color: #777;
+}
+
+.policy-box p:first-of-type {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .our-policy {
+    grid-template-columns: 1fr;
+    gap: 30px;
+
+    margin-top: 50px;
+  }
+}
